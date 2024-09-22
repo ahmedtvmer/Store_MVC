@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApplication1.Models.Customer>
+
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<h1>Customers</h1>
+
+<p>
+    <a asp-action="Create" style="text-decoration: none;"><img src="https://cdn-icons-png.flaticon.com/128/4074/4074958.png" alt="Edit Icon" style="width: 20px; height: 20px;" />  Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.CustomerId"><img src="https://cdn-icons-png.flaticon.com/128/8016/8016700.png" alt="Edit Icon" style="width: 32px; height: 32px;" /></a> |
+                    <a asp-action="Edit" asp-route-id="@item.CustomerId"><img src="https://cdn-icons-png.flaticon.com/128/1827/1827933.png" alt="Edit Icon" style="width: 32px; height: 32px;" /></a> |
+                    <a asp-action="Delete" asp-route-id="@item.CustomerId"><img src="https://cdn-icons-png.flaticon.com/128/484/484611.png" alt="Edit Icon" style="width: 32px; height: 32px;" /></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
