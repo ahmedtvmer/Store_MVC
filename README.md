@@ -20,25 +20,25 @@ The main target of this project is to retrieve, update and create data from a st
 # Screenshots
 
 
-![home](https://github.com/user-attachments/assets/4c7458cd-6e26-40b6-8771-05b1ba0d1a57)
+![Home](https://github.com/user-attachments/assets/8a073989-ba51-4c82-b967-f486b9f38003)
 
-![customers](https://github.com/user-attachments/assets/f95b1bcc-4530-434e-9010-07a55f55dddd)
+![Customers](https://github.com/user-attachments/assets/0dc3bd02-202e-4d46-98c6-cac2e705f4a7)
 
-![create_cust](https://github.com/user-attachments/assets/4be82276-9b95-4602-ac36-26c8ff44ec37)
+![Create_Customer](https://github.com/user-attachments/assets/43743fd0-b5ae-48eb-a217-41192cf9b9e6)
 
-![edit_cust](https://github.com/user-attachments/assets/38c53f2e-409b-4033-98b8-9e6cca55c42b)
+![Edit_Customer](https://github.com/user-attachments/assets/a627bec5-45b6-4fe6-a3dd-794e14384055)
 
-![details_cust](https://github.com/user-attachments/assets/da4bb1bf-f9e1-4955-ba71-305caac7241b)
+![Details_Customer](https://github.com/user-attachments/assets/835ab932-b998-495b-9b46-3aca3c3d404e)
 
-![delete_cust](https://github.com/user-attachments/assets/e0c99960-a4c0-4cfc-ad2b-5c183a877191)
+![Delete_Customer](https://github.com/user-attachments/assets/f8d567a4-98c1-4687-802e-99f78917af72)
 
-![categories](https://github.com/user-attachments/assets/0e949fef-2f84-4e9d-8545-bdc06862bb4a)
+![Categories](https://github.com/user-attachments/assets/57a54d5a-4786-4575-acfd-a3099f429017)
 
-![items](https://github.com/user-attachments/assets/a2a133c9-1c83-4591-b26d-48af2577c019)
+![Items](https://github.com/user-attachments/assets/bb047727-1a73-4624-9103-b235eb70d64c)
 
-![orders](https://github.com/user-attachments/assets/4732568a-08ac-461a-a6a0-0231d1ba92d2)
+![Orders](https://github.com/user-attachments/assets/fdf048c9-69a4-46ac-9ccd-cc3f8d0f7b6f)
 
-![reviews](https://github.com/user-attachments/assets/603bd5dd-d286-4dfd-b40c-81d3230ce0f4)
+![Reviews](https://github.com/user-attachments/assets/76ce96db-fbcc-427f-bfd6-0e6d15d6514c)
 
 
 
